@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+
+  .Projects{
+    width: 650px;
+    background: linear-gradient(90deg, #F2A0FF, #707EFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    font-family: Lilita One;
+    font-weight: Regular;
+    font-size: 120px;
+    opacity: 1;
+    text-align: center;
+  }
