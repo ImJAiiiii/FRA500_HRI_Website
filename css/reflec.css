@@ -8,7 +8,7 @@
 /*---------------------------menu bar------------------------------*/
 header{
     width: 100%;
-    height: 50px;
+    height: 8vh;
     background: #151515;
     opacity: 1;
     position: relative;
@@ -59,7 +59,7 @@ header{
 
   .MainPanel-container {
     width: 100%;
-    height: 1700px;
+    height: 200vh;
     background: rgba(21,21,21,1);
     opacity: 1;
     position: relative;
@@ -68,18 +68,18 @@ header{
     overflow: hidden;
   }
   .Reflection {
-    width: 650px;
+    width: auto;
     background: linear-gradient(90deg, #F2A0FF, #707EFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 80px;
-    left: 170px;
     font-family: Lilita One;
     font-weight: Regular;
-    font-size: 120px;
+    font-size: 8vw;
+    position: relative;
+    margin-top: 30vh;
+    margin-left: 9vw;
     opacity: 1;
-    text-align: center;
+    text-align: left;
   }
   .SubPanel-container {
     display: flex;
@@ -88,20 +88,21 @@ header{
     flex-direction: row;
     text-align: center;
     width: 100%;
-    padding-top: 220px;
+    margin-top: -3vh;
+
   }
   
   .SubPanel-grid {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /* Ensures wrapping on small screens */
-    gap: 40px;
+    gap: 3vh;
     width: 90%; /* Adjusted for responsiveness */
     max-width: 1400px; /* Prevents excessive width */
 }
 .SubPanel-card {
     background: #151515;
-    padding: 40px;
+    padding: 4vh;
     flex: 1; /* Makes it flexible */
     min-width: 300px; /* Prevents it from becoming too small */
     max-width: 85%; /* Adjusts to container */
@@ -113,7 +114,7 @@ header{
     color: #FAD85D;
     font-family: "Lilita One", sans-serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5vw;
     margin-bottom: 8px;
   }
 
@@ -121,49 +122,49 @@ header{
     color: #F2A0FF;
     font-family: "Lilita One", sans-serif;
     font-weight: bold;
-    font-size: 60px;
-    margin-bottom: 10px;
+    font-size: 3.5vw;
+    margin-bottom: 1vh;
   }
   .SubPanel-title2{
     color: #F2A0FF;
     font-family: "Lilita One", sans-serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 3.5vw;
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
   }
   .SubPanel-Star {
-    width: 25px; /* Fixed width */
-    height: 25px; /* Fixed height */
+    width: 1.5vw; /* Fixed width */
+    height: 1.5vw; /* Fixed height */
     background: url("../images/star.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     opacity: 1;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
     flex-shrink: 0; /* Prevents resizing */
   }
   .SubPanel-text-container {
     display: inline-flex; /* Keeps star and text on the same line */
     align-items: center; /* Vertically aligns them */
-    gap: 20px; /* Space between star and text */
-    width: 1200px;
+    gap: 2vw; /* Space between star and text */
+    width: 60vw;
 }
   .SubPanel-text {
     color: white;
     font-family: "Noto Sans Thai", serif;
     font-weight: 200; /* Fixed incorrect 'Regular' */
-    font-size: 24px;
+    font-size: 1.2vw;
 }
 .SubPanel-text-container2 {
     display: inline-flex; /* Keeps star and text on the same line */
     align-items: center; /* Vertically aligns them */
-    gap: 50px; /* Space between star and text */
-    width: 1500px;
+    gap: 5vw; /* Space between star and text */
+    width: 75vw;
 }
 .Hololens2{
-    width: 572px;
-    height: 389px;
+    width: 30vw;
+    height: 40vh;
     background: url("../images/Hololens2.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -188,22 +189,22 @@ Phighlight {
   .NameID {
     color: rgba(255,255,255,1);
     font-family: "Noto Sans Thai", serif;
-    font-size: 24px;
+    font-size: 1.2vw;
     opacity: 1;
     text-align: right;
   }
 
   .v204_211 {
-    width: 708px;
-    height: 708px;
+    width: 40vw;
+    height: 60vh;
     background: url("../images/v204_211.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 165px;
-    left: 1254px;
+    top: 20vh;
+    right: -6vw;
     overflow: hidden;
   }
   

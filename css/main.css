@@ -3,11 +3,15 @@
 }
 body {
   font-size: 14px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
+/*---------------------------menu bar------------------------------*/
 header{
   width: 100%;
-  height: 50px;
+  height: 8vh;
   background: linear-gradient(45deg, var(--color-a), var(--color-b));
   opacity: 1;
   position: relative;
@@ -16,6 +20,7 @@ header{
   overflow: hidden;
   animation: gradientAnimation 6s infinite alternate ease-in-out;
 }
+
 /* เมนูหลัก */
 .menu-container {
   color: white;
@@ -46,7 +51,7 @@ header{
 .menu a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 1vw;
   font-family: League Spartan;
   padding: 15px;
   transition: 0.3s;
@@ -57,23 +62,25 @@ header{
   padding: 10px;
   border-bottom: 2px solid #F2A0FF;
 }
-
-/* Background */
+/*----------------------------------------------------------------*/
+/*-------------------------- Background --------------------------*/
 .Background {
   width: 100%;
-  height: 2189px;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   background: rgba(21,21,21,1);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 
 /* Color Background */
 .color_bg {
   width: 100%;
-  height: 750px;
+  height: 70vh;
   background: linear-gradient(45deg, var(--color-a), var(--color-b));
   opacity: 1;
   position: relative;
@@ -110,52 +117,48 @@ header{
   }
 }
 
-/* Name: Apichaya */
+/*--------------------------- Name: Apichaya -----------------------*/
 .Name {
-  width: 551px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 200px;
-  left: 221px;
-  font-family: League Spartan;
-  font-weight: Bold;
-  font-size: 120px;
-  opacity: 1;
-  text-align: left;
+  font-size: 6vw;
+  font-weight: bold;
+  margin-top: 2vh;
+  margin-left: 12vw;
+  text-align: left; /* Center text */
+  font-family: 'League Spartan', sans-serif;
+  color: white;
+  position: relative;
+  width: 100%;
 }
 .Surname {
-  width: 215px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 310px;
-  left: 221px;
-  font-family: League Spartan;
+  font-size: 4vw;
   font-weight: Bold;
-  font-size: 60px;
-  opacity: 1;
-  text-align: left;
+  margin-left: 12vw;
+  margin-top: 1vh;
+  color: white;
+  position: relative;
+  text-align: left; /* Center text */
+  font-family: 'League Spartan', sans-serif;
+  width: 100%;
 }
+
 .FIBO {
-  width: 200px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 380px;
-  left: 221px;
-  font-family: League Spartan;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
+  font-size: 2vw;
+  font-weight: 200;
+  font-family: 'League Spartan', sans-serif;
+  margin-top: 1vh;
+  margin-left: 12vw;
+  width: 100%;
+  color: white;
+  position: relative;
   text-align: left;
 }
 
 .Bg_WCloud {
   width: 100%;
-  height: 104px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 846px;
-  left: 0px;
+  height: 15vh;
+  background: white;
+  position: relative;
+  margin-top: -6vh; /* Adjust dynamically */
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
@@ -163,114 +166,107 @@ header{
 
 .Bg_BCloud {
   width: 100%;
-  height: 104px;
-  background: rgba(21,21,21,1);
-  opacity: 1;
-  position: absolute;
-  top: 650px;
-  left: 0px;
+  height: 10vh;
+  background: #151515;
+  position: relative;
+  margin-top: -10vh;
   overflow: hidden;
 }
 
 .RBCloud {
   width: 60%;
-  height: 150px;
+  height: 20vh;
   background: url("../images/RBCloud.png");
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: cover;
-  opacity: 1;
+  background-size: contain;
   position: absolute;
-  top: 500px;
-  right: 0px;
+  top: 42vh;
+  right: 0;
   overflow: hidden;
 }
 .LBCloud {
   width: 40%;
-  height: 160px;
+  height: 30vh;
   background: url("../images/LBCloud.png");
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: cover;
+  background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 500px;
-  left: 0px;
+  top: 40vh;
+  left: 0;
   overflow: hidden;
 }
 .WCloud {
   width: 100%;
-  height: 313px;
+  height: 40vh;
   background: url("../images/v196_126.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 546px;
-  left: 0px;
+  background-size: contain;
+  position: relative;
+  margin-top: -30vh;
   overflow: hidden;
 }
 .Rocket {
-  width: 580px;
-  height: 639px;
+  width: 50vw;
+  height: 60vh;
   background: url("../images/v196_127.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 158px;
-  left: 900px;
+  top: 8vh;
+  right: 6vw;
   overflow: hidden;
   animation: moveRocket 5s infinite;
 }
 
 @keyframes moveRocket {
   0% {
-    transform: translateY(20px);
+    transform: translateY(2vh);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-2vh);
   }
   100% {
-    transform: translateY(20px);
+    transform: translateY(2vh);
   }
 }
 
 .panel_FRA500 {
-  width: 490px;
-  height: 50px;
+  width: 25vw;
+  height: 6vh;
   background: url("../images/v200_152.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   opacity: 1;
-  position: absolute;
-  top: 120px;
-  left: 221px;
+  position:relative;
+  margin-top: 10vh;
+  margin-left: 12vw;
   overflow: hidden;
 }
 .FRA500 {
-  width: 437px;
+  width: 100%;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 13px;
-  left: 28px;
+  top: 1vh;
+  left: 2vw;
   font-family: League Spartan;
   font-weight: Regular;
-  font-size: 30px;
+  font-size: 3vh;
   opacity: 1;
   text-align: left;
 }
 .Boarder_FRA500 {
-  width: 490px;
-  height: 50px;
+  width: 25vw;
+  height: 5vh;
   background: rgba(217,217,217,0);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
   border: 2px solid rgba(255,255,255,1);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -279,42 +275,37 @@ header{
   overflow: hidden;
 }
 
-.name {
-  color: #fff;
-}
-
 .Recently_Update{
-  width: 635px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 1000px;
-  left: 140px;
+  width: 100%;
+  color: white;
+  position: relative;
+  margin-top: 10vh;
+  margin-left: 15vw;
   font-family: Lilita One;
   font-weight: Regular;
-  font-size: 80px;
-  opacity: 1;
+  font-size: 5vw;
   text-align: left;
 }
 
 .panel {
-  width: 450px;
-  height: 400px;
-  position: absolute;
+  width: 30vw;
+  height: 30vh;
+  position: relative;
   border-radius: 20px;
+  margin-top: 5vh;
+  margin-left: -40vw;
   overflow: hidden;
   text-align: center;
   font-family: Lilita One, sans-serif;
   font-weight: Regular;
   cursor: pointer;
   transition: 0.3s;
-  top: 1120px;
-  left: 150px;
 }
 .panel .default, .panel .hover {
   padding: 20px;
   border-radius: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 1.5vw;
 }
 .panel .default {
   background-color: #2B2B2B;
@@ -337,7 +328,7 @@ header{
 footer {
   position: absolute;
   top: 1400px;
-  height: 300px;
+  height: 30vh;
   width: 100%;
   background: #151515;
   color : white;
@@ -352,14 +343,14 @@ footer f1{
   padding: 80px 50px;
   color: white;
   font-family: 'League Spartan', sans-serif;
-  font-size: 40px;
+  font-size: 4vw;
   font-weight: 500;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
-  margin-top: 80px;
+  margin-top: 8vh;
   border-top: 1px solid #FAD85D;
   border-bottom: 1px solid #FAD85D;
 }
@@ -369,7 +360,7 @@ footer f1{
   flex: 1;
   text-align: center;
   padding: 40px;
-  font-size: 16px;
+  font-size: 1vw;
   font-family: 'League Spartan', sans-serif;
   font-weight: 200;
   line-height: 2;

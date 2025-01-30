@@ -5,59 +5,62 @@
     font-size: 14px;
   }
 /*---------------------------menu bar------------------------------*/
-  header{
-    width: 100%;
-    height: 50px;
-    background: #151515;
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
-  /* เมนูหลัก */
-  .menu-container {
-    color: white;
-    display: flex;
-    justify-content: flex-end; /* Align to the right */
-    align-items: center;
-    width: 100%;
-    padding: 25px 50px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    font-weight: 200;
-  }
-  
-  .menu {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    padding: 0;
-    margin: 0;
-  
-  }
-  .menu li {
-    padding-right: 20px;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: League Spartan;
-    padding: 15px;
-    transition: 0.3s;
-  }
-  .menu a:hover {
-    color: #F2A0FF;
-    padding: 10px;
-    border-bottom: 2px solid #F2A0FF;
-  }
+header{
+  width: 100%;
+  height: 8vh;
+  background: #151515;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+/* เมนูหลัก */
+.menu-container {
+  color: white;
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  align-items: center;
+  width: 100%;
+  padding: 25px 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-weight: 200;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.menu li {
+  padding-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1vw;
+  font-family: League Spartan;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #F2A0FF;
+  padding: 10px;
+  border-bottom: 2px solid #F2A0FF;
+}
 /*----------------------------------------------------------------*/
   .MainBackground {
     width: 100%;
-    height: 2300px;
+    height: 240vh;
     background: rgba(21,21,21,1);
     opacity: 1;
     position: relative;
@@ -67,9 +70,8 @@
   }
   .Edu_Bg {
     width: 100%;
-    height: 533px;
+    height: 55vh;
     background: linear-gradient(45deg, #707EFF, #F2A0FF);
-    opacity: 1;
     position: absolute;
     top: 920px;
     left: 0px;
@@ -83,9 +85,9 @@
     right: 0px;
     font-family: Londrina Outline;
     font-weight: Regular;
-    font-size: 120px;
+    font-size: 6vw;
     opacity: 1;
-    text-align: center;
+    text-align: right;
   }
   .Currently {
     width: 482px;
@@ -95,21 +97,21 @@
     right: 0px;
     font-family: Londrina Outline;
     font-weight: Regular;
-    font-size: 120px;
+    font-size: 6vw;
     opacity: 1;
-    text-align: center;
+    text-align: right;
   }
   .Aboutme {
-    width: 560px;
+    width: 40vw;
     background: linear-gradient(90deg, #F2A0FF, #707EFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 80px;
-    left: 170px;
+    position: relative;
+    margin-top: 8vh;
+    margin-left: 12vw;
     font-family: Lilita One;
     font-weight: Regular;
-    font-size: 120px;
+    font-size:8vw;
     opacity: 1;
     text-align: center;
   }
@@ -121,33 +123,34 @@
     left: 134px;
     font-family: League Spartan;
     font-weight: Bold;
-    font-size: 40px;
+    font-size: 2vw;
     opacity: 1;
-    text-align: center;
+    text-align: left;
   }
   .Bg_profile {
-    width: 680px;
-    height: 640px;
+    width: 60vw;
+    height: 65vh;
     background: url("../images/Pasted Graphic.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     opacity: 1;
-    position: absolute;
-    top: 254px;
-    left: 133px;
+    position: relative;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
   }
   .profile_img {
-    width: 487px;
-    height: 488px;
+    width: 22vw;
+    height: 45vh;
     background: url("../images/profile_img.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 313px;
-    left: 223px;
+    position: relative;
+    margin-top: -54vh;
+    margin-left: 18vw;
     border-top-left-radius: 250px;
     border-top-right-radius: 250px;
     border-bottom-left-radius: 250px;
@@ -162,7 +165,7 @@
     left: 207px;
     font-family: League Spartan;
     font-weight: Regular;
-    font-size: 40px;
+    font-size: 2vw;
     opacity: 1;
     text-align: left;
   }
@@ -174,7 +177,7 @@
     left: 207px;
     font-family: League Spartan;
     font-weight: Regular;
-    font-size: 40px;
+    font-size: 2vw;
     opacity: 1;
     text-align: left;
   }
@@ -186,45 +189,45 @@
     left: 207px;
     font-family: League Spartan;
     font-weight: Regular;
-    font-size: 40px;
+    font-size: 2vw;
     opacity: 1;
     text-align: left;
   }
   .Star1 {
-    width: 84px;
-    height: 86px;
+    width: 6vw;
+    height: 6vw;
     background: url("../images/star.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 365px;
-    left: 620px;
+    top: 32vh;
+    left: 30vw;
   }
   .Star2 {
-    width: 150px;
-    height: 150px;
+    width: 8vw;
+    height: 8vw;
     background: url("../images/star.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 649px;
-    left: 206px;
+    top: 70vh;
+    left: 15vw;
   }
   .Star3 {
-    width: 50px;
-    height: 52px;
+    width: 4vw;
+    height: 4vw;
     background: url("../images/star.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 410px;
-    left: 692px;
+    top: 45vh;
+    left: 35vw;
   }
   .Star4 {
     width: 50px;
@@ -262,14 +265,14 @@
     left: 134px;
   }
   .about_text {
-    width: 924px;
+    width: 48vw;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 380px;
-    left: 895px;
+    top: 40vh;
+    right: 2vw;
     font-family: League Spartan;
     font-weight: Regular;
-    font-size: 30px;
+    font-size: 1.5vw;
     opacity: 1;
     text-align: justified;
     line-height: 1.5;
@@ -286,14 +289,14 @@
   }
 
   .Itsme {
-    width: 937px;
+    width: 50vw;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 292px;
-    left: 895px;
+    top: 30vh;
+    right: 0vw;
     font-family: League Spartan;
     font-weight: Bold;
-    font-size: 40px;
+    font-size: 2.5vw;
     opacity: 1;
     text-align: left;
   }
@@ -308,9 +311,9 @@
     left: 134px;
     font-family: Lilita One;
     font-weight: Regular;
-    font-size: 80px;
+    font-size: 5vw;
     opacity: 1;
-    text-align: center;
+    text-align: left;
   }
 
 .skills-container {
@@ -321,13 +324,13 @@
     position: absolute;
     text-align: center;
     top: 1550px;
-    width: 1800px;
+    width: 100vw;
 }
 
 .skills-title {
     font-family: Lilita One;
     color: white;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -335,27 +338,27 @@
 .skills-grid {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 4vw;
 }
 
 .skill-card {
     background: #2B2B2B;
     padding: 40px;
     border-radius: 12px;
-    width: 500px;
+    width: 25vw;
     text-align: center;
 }
 
 .skill-category {
     font-family: League Spartan;
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .sub-category {
     font-family: League Spartan;
-    font-size: 40px;
+    font-size: 2vw;
     color: #FFD700;
     margin-bottom: 8px;
 }
@@ -369,7 +372,7 @@
     color: white;
     font-family: League Spartan;
     margin: 5px 0;
-    font-size: 40px;
+    font-size: 1.8vw;
 }
 
   
